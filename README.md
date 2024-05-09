@@ -14,6 +14,11 @@
 ## Descripción
 
 Este proyecto fue desarrollado como parte del desafío del curso Oracle One, el cual utiliza una API para realizar solicitudes de tasas de cambio y manipular el JSON para obtener la conversión de la moneda.
+<div align="center">
+  <img src="https://github.com/PabloLuna44/Java-Challenge-Conversor-de-Monedas/assets/119721670/acfca1b3-e456-4b50-8043-0a650a92f055">
+  
+</div>
+
 
 ## 📚Índice
 
@@ -75,7 +80,7 @@ Para el filtrado de monedas, será necesario utilizar el atributo "Currency Code
 - [Simplificando tu código en Java: Conoce los enum #AluraMás](https://www.youtube.com/watch?v=EoPvlE85XAQ)
 - [¿Qué es la Programación Orientada a Objetos?](https://www.youtube.com/watch?v=Oigen2sjagk&t=1s&ab_channel=AluraLatam)
 
-
+---
 
 ## ⚙️ Tecnologias Utilizadas 
 
