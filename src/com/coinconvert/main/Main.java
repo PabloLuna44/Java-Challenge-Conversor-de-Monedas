@@ -3,59 +3,71 @@ package com.coinconvert.main;
 import com.coinconvert.models.ApiController;
 import com.coinconvert.models.Calculation;
 
-import java.io.IOException;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.text.DecimalFormat;
-import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) throws IOException, InterruptedException {
-        Scanner keyboard=new Scanner(System.in);
-        String[] arr={"MXN","USD","MXN","CAD","USD","CAD"};
-        String[] arr2={"USD","MXN","CAD","MXN","CAD","USD"};
-        DecimalFormat df = new DecimalFormat("#.##");
-        int opc=0;
-        while (opc != 6) {
-            System.out.println("""
-                    Enter currency that you wish convert
-                    ------------------------------------
-                    |   [0]MXN->USD                    |
-                    |   [1]USD->MXN                    |
-                    |   [2]MXN->CAD                    |
-                    |   [3]CAD->MXN                    |
-                    |   [4]USD->CAD                    |
-                    |   [5]CAD->USD                    |
-                    |   [6]Exit                        |
-                    ------------------------------------
-                    """);
-                    opc = keyboard.nextInt();
-            if(opc!=6) {
-                System.out.println("Enter the value that you wish convert");
-                double amount=keyboard.nextDouble();
-                double value=ApiController.consultCurrency(arr[opc], arr2[opc]);
-                double total= Calculation.calculationCurrency(amount,value);
 
-                System.out.println(arr[opc] + ":$"+df.format(amount)+" -> " + arr2[opc] + ":$" + df.format(total));
-            }
+    public static void main(String[] args) {
+        try {
 
+            UIManager.setLookAndFeel("javax.swing.plaf.nimbus.NimbusLookAndFeel");
+        } catch (Exception e) {
+            e.printStackTrace();
         }
 
+        JFrame frame = new JFrame("Currency Converter");
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setSize(400, 250);
+        frame.setLayout(new GridLayout(4, 2, 10, 10));
 
+        String[] currenciesFrom = {"MXN", "USD", "MXN", "CAD", "USD", "CAD"};
+        String[] currenciesTo = {"USD", "MXN", "CAD", "MXN", "CAD", "USD"};
 
+        JComboBox<String> currencyComboBox = new JComboBox<>(new String[]{
+                "MXN to USD",
+                "USD to MXN",
+                "MXN to CAD",
+                "CAD to MXN",
+                "USD to CAD",
+                "CAD to USD"
+        });
+        frame.add(currencyComboBox);
 
+        JLabel amountLabel = new JLabel("Amount:");
+        frame.add(amountLabel);
 
+        JTextField amountTextField = new JTextField();
+        frame.add(amountTextField);
 
+        JButton convertButton = new JButton("Convert");
+        frame.add(convertButton);
 
+        JLabel resultLabel = new JLabel();
+        frame.add(resultLabel);
 
+        DecimalFormat df = new DecimalFormat("#.##");
 
+        convertButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                String selectedCurrency = (String) currencyComboBox.getSelectedItem();
+                int index = currencyComboBox.getSelectedIndex();
+                double amount = Double.parseDouble(amountTextField.getText());
+                try {
+                    double value = ApiController.consultCurrency(currenciesFrom[index], currenciesTo[index]);
+                    double total = Calculation.calculationCurrency(amount, value);
+                    resultLabel.setText(df.format(amount) + " " + currenciesFrom[index] + " = " + df.format(total) + " " + currenciesTo[index]);
+                } catch (Exception ex) {
+                    ex.printStackTrace();
+                    resultLabel.setText("Error occurred while converting.");
+                }
+            }
+        });
 
-        
-
-
-
-
-
-
-
-
+        frame.setVisible(true);
     }
 }
