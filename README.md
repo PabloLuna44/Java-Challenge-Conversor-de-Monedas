@@ -107,7 +107,7 @@ Para el filtrado de monedas, será necesario utilizar el atributo "Currency Code
 
 ## Conclusión
 
-### Con la realizacion de este proyecto fui capaz de realizar la solicitud con una API y mediante la respuesta de esta que es un archivo de tipo JSON 
+Con la realizacion de este proyecto fui capaz de realizar la solicitud con una API y mediante la respuesta de esta que es un archivo de tipo JSON 
 realize la conversion de diferentes divisas, así como tambien me permitio utilizar mis conocimientos de la programacion orientada a objetos(POO) para 
 para poder implementar la herencia, polimorfismo, encapsulación,clases abstractas para la correcta implemetacion de este proyecto y utilizado buenas practicas de programacion
 
