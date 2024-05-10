@@ -23,14 +23,14 @@ Este proyecto fue desarrollado como parte del desafío del curso Oracle One, el 
 ## 📚Índice
 
 * [Título e imagen de portada](#java-challenge-conversor-de-monedas)
-* [Descripción del proyecto](#Descripción)
-* [Requisitos](#Requisitos)
-* [Recursos](#Recursos)
-* [Tecnologías utilizadas](#Tecnologias-Utilizadas)
-* [Funcionalidades del proyecto](#Funcionalidades-del-proyecto)
-* [Colaboradores](#Colaboradores)
-* [Conclusión](#Conclusión)
-* [Insignias](#Insignias)
+* [Descripción del proyecto](#descripción)
+* [Requisitos](#requisitos)
+* [Recursos](#recursos)
+* [Tecnologías utilizadas](#tecnologías-utilizadas)
+* [Funcionalidades del proyecto](#funcionalidades-del-proyecto)
+* [Colaboradores](#colaboradores)
+* [Conclusión](#conclusión)
+* [Insignias](#insignias)
 
 ---
 
@@ -80,14 +80,14 @@ Para el filtrado de monedas, será necesario utilizar el atributo "Currency Code
 
 ---
 
-## ⚙️ Tecnologias-Utilizadas 
+## ⚙️ Tecnologias utilizadas 
 
 * [Java.swing](https://docs.oracle.com/javase/8/docs/api/javax/swing/package-summary.html) - Herramienta de interfaz gráfica de usuario
 * [Java](https://www.java.com/es/) - Java es un lenguaje de programación orientado a objetos
 
 ---
 
-##  🖥️ Funcionalidades-del-proyecto
+##  🖥️ Funcionalidades del proyecto
 
 ### ✅ `Funcionalidad 1:`
  #### Seleccionar cual moneda convertir 
@@ -116,6 +116,10 @@ para poder implementar la herencia, polimorfismo, encapsulación,clases abstract
 
 [<img src="https://avatars.githubusercontent.com/u/119721670?v=4" width=115><br><sub>Juan Pablo Guzmán Luna</sub>](https://github.com/PabloLuna44) 
 
-##
+---
+
+## Insignias
+
+
 
 
