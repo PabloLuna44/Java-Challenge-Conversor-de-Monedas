@@ -1,7 +1,7 @@
 # Java-Challenge-Conversor-de-Monedas
 
 <div align="center">
-  <img src="https://github.com/PabloLuna44/Java-Challenge-Conversor-de-Monedas/assets/119721670/100ecb00-fac6-4426-bc5b-0e2e337dca17" width="200" height="200">
+  <img src="https://github.com/PabloLuna44/Java-Challenge-Conversor-de-Monedas/assets/119721670/100ecb00-fac6-4426-bc5b-0e2e337dca17" width="400" height="400">
 </div>
 
 <div align="center">
@@ -15,8 +15,8 @@
 
 Este proyecto fue desarrollado como parte del desafío del curso Oracle One, el cual utiliza una API para realizar solicitudes de tasas de cambio y manipular el JSON para obtener la conversión de la moneda.
 <div align="center">
-  <img src="https://github.com/PabloLuna44/Java-Challenge-Conversor-de-Monedas/assets/119721670/acfca1b3-e456-4b50-8043-0a650a92f055">
-  
+  <img src="https://github.com/PabloLuna44/Java-Challenge-Conversor-de-Monedas/assets/119721670/a7e2e95d-f132-4098-a3cf-79ec75902792">
+
 </div>
 
 
@@ -29,10 +29,8 @@ Este proyecto fue desarrollado como parte del desafío del curso Oracle One, el 
 * [Características de la aplicación y demostración](#características-de-la-aplicación-y-demostración)
 * [Acceso al proyecto](#acceso-al-proyecto)
 * [Tecnologías utilizadas](#tecnologías-utilizadas)
-* [Personas Contribuyentes](#personas-contribuyentes)
-* [Personas-Desarrolladores del Proyecto](#personas-desarrolladores-del-proyecto)
-* [Licencia](#licencia)
-* [Conclusión](#conclusión)
+* [Colaboradores](#Colaboradores)
+* [Conclusión](#Conclusión)
 
 ---
 
@@ -58,13 +56,13 @@ Para el filtrado de monedas, será necesario utilizar el atributo "Currency Code
 
 ## 📌Recursos 
 
-### Cursos
+### 🎓 Cursos
 - [Curso de Alura: Creando tu primera aplicación Java](https://app.aluracursos.com/course/java-creando-primera-aplicacion)
 - [Curso Online Java: aplicando la Orientación a Objetos | Alura](https://app.aluracursos.com/course/java-aplicando-orientacion-objetos)
 - [Curso Online Java: trabajar con listas y colecciones de datos | Alura](https://app.aluracursos.com/course/java-trabajar-listas-colecciones-datos)
 - [Curso Online Java: consumir API, escribir archivos y manejar errores | Alura](https://app.aluracursos.com/course/java-consumir-api-escribir-archivos-manejar-errores)
 
-### Articulos
+### 🎓 Articulos
 - [Revisando la Orientación a Objetos: encapsulación de Java | Alura Cursos Online](https://www.aluracursos.com/blog/revisando-la-orientacion-a-objetos-encapsulacion-de-java)
 - [POO: ¿Qué es la programación orientada a objetos? | Alura Cursos Online](https://www.aluracursos.com/blog/poo-que-es-la-programacion-orientada-a-objetos)
 - [Aumentando tu productividad con el eclipse | Alura Cursos Online](https://www.aluracursos.com/blog/aumentando-tu-productividad-con-el-eclipse)
@@ -73,7 +71,7 @@ Para el filtrado de monedas, será necesario utilizar el atributo "Currency Code
 - [Redondeo y números gigantes: de double a BigDecimal  | Alura Cursos Online](https://www.aluracursos.com/blog/redondeo-y-numeros-gigantes-de-double-a-bigdecimal)
 
 
-### Alura +
+### 🎓 Alura +
 - [¿Por qué utilizar Java actualmente?](https://www.youtube.com/watch?v=3kNuK-XAHEY)
 - [Desmistificando el Back-End](https://www.youtube.com/watch?v=LLt7FreeHfQ&t=1s&ab_channel=AluraLatam)
 - [Git y GitHub para Principiantes #AluraMás](https://www.youtube.com/watch?v=-LmFK6skG7s)
@@ -92,15 +90,31 @@ Para el filtrado de monedas, será necesario utilizar el atributo "Currency Code
 ##  🖥️ Funcionalidades del proyecto
 
 ### ✅ `Funcionalidad 1:`
+ #### Seleccionar cual moneda convertir 
+![image](https://github.com/PabloLuna44/Java-Challenge-Conversor-de-Monedas/assets/119721670/3acd3629-a811-4a26-bde6-9b810f3a2b68)
+
 ### ✅ `Funcionalidad 2:`
+  #### Ingresar el monto 
+
+![image](https://github.com/PabloLuna44/Java-Challenge-Conversor-de-Monedas/assets/119721670/182cd44f-e01f-45d8-a2f8-fbab29b9a403)
+
 ### ✅ `Funcionalidad 3:` 
+  #### Realizar la consulta a la API para realizar la conversion y mostrar el resultado al usuario
+
+![image](https://github.com/PabloLuna44/Java-Challenge-Conversor-de-Monedas/assets/119721670/4dce61c6-af36-4f32-9b7c-c871e0b603a0)
 
 ---
 
 ## Conclusion
 
+###Con la realizacion de este proyecto fui capaz de realizar la solicitud con una API y mediante la respuesta de esta que es un archivo de tipo JSON 
+realize la conversion de diferentes divisas, así como tambien me permitio utilizar mis conocimientos de la programacion orientada a objetos(POO) para 
+para poder implementar la herencia, polimorfismo, encapsulación,clases abstractas para la correcta implemetacion de este proyecto y utilizado buenas practicas de programacion
+
 ---
 ## Colaboradores 
+
+[<img src="https://avatars.githubusercontent.com/u/119721670?v=4" width=115><br><sub>Juan Pablo Guzmán Luna</sub>](https://github.com/PabloLuna44) 
 
 ##
 
