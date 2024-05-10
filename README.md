@@ -23,14 +23,14 @@ Este proyecto fue desarrollado como parte del desafío del curso Oracle One, el 
 ## 📚Índice
 
 * [Título e imagen de portada](#java-challenge-conversor-de-monedas)
-* [Insignias](#insignias)
 * [Descripción del proyecto](#descripción-del-proyecto)
-* [Estado del proyecto](#estado-del-proyecto)
-* [Características de la aplicación y demostración](#características-de-la-aplicación-y-demostración)
-* [Acceso al proyecto](#acceso-al-proyecto)
-* [Tecnologías utilizadas](#tecnologías-utilizadas)
+* [Requisitos](#Requisitos)
+* [Recursos](#Recursos)
+* [Tecnologías utilizadas](#Tecnologias-Utilizadas)
+* [Funcionalidades del proyecto](#Funcionalidades-del-proyecto)
 * [Colaboradores](#Colaboradores)
 * [Conclusión](#Conclusión)
+* [Insignias](#Insignias)
 
 ---
 
@@ -80,14 +80,14 @@ Para el filtrado de monedas, será necesario utilizar el atributo "Currency Code
 
 ---
 
-## ⚙️ Tecnologias Utilizadas 
+## ⚙️ Tecnologias-Utilizadas 
 
 * [Java.swing](https://docs.oracle.com/javase/8/docs/api/javax/swing/package-summary.html) - Herramienta de interfaz gráfica de usuario
 * [Java](https://www.java.com/es/) - Java es un lenguaje de programación orientado a objetos
 
 ---
 
-##  🖥️ Funcionalidades del proyecto
+##  🖥️ Funcionalidades-del-proyecto
 
 ### ✅ `Funcionalidad 1:`
  #### Seleccionar cual moneda convertir 
@@ -105,7 +105,7 @@ Para el filtrado de monedas, será necesario utilizar el atributo "Currency Code
 
 ---
 
-## Conclusion
+## Conclusión
 
 ###Con la realizacion de este proyecto fui capaz de realizar la solicitud con una API y mediante la respuesta de esta que es un archivo de tipo JSON 
 realize la conversion de diferentes divisas, así como tambien me permitio utilizar mis conocimientos de la programacion orientada a objetos(POO) para 
